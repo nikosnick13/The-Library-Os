@@ -1,0 +1,113 @@
+*
+{   
+    margin :0px;
+    padding:0px;
+    text-decoration:none;
+    
+}
+header
+{
+    height:100px;
+    background-color:black ;  
+    color:#0a66cc; 
+}
+main
+{
+    padding:100px;
+}
+/*
+footer
+{
+    height:100px;
+    background-color:black ;  
+    color:#0a66cc; 
+
+}
+*/
+.right_section 
+{
+    display:flex;
+    
+    float:right;
+    padding:2.8%;
+    height:80px;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+
+}
+
+.right_section a
+{
+    padding:20px;
+    color:#0a66cc;
+}
+
+/* To .navHead_right_section a:hover kanei to efe to xromatos  */ 
+.navHead_right_section a:hover
+{ 
+    background-color:#262626;
+    color:0a66cc;
+    
+    
+}
+
+.left_section 
+{
+    height:80px;
+    float:left;
+    padding:15px 20px 2px 25px;
+    display:flex;
+}
+.left_section a
+{
+    color:#0a66cc;
+}
+
+.left_section img
+{
+  height:70px;
+  width:150px;
+}
+#name_site 
+{
+    padding:20px 20px 2px 20px;
+}
+.Operating_system
+{   
+    padding-top:60px;
+    display:flex;
+    justify-content:space-between | center;
+    flex-direction:row;
+    gap:10px;
+}
+.container_os
+{
+     text-align:center;
+ }
+.container_os img
+{   
+    height:70px;
+    width:70px;
+    padding:5px;
+    margin:5px;
+}
+
+/* edw exw mini*/
+@media all and (max-width: 500px) 
+{
+  .right_section
+  {
+    flex-direction: row;
+    
+  }
+}
+
+@media all and (max-width: 800px) 
+{
+  .right_section
+  {
+    flex-direction: colum;
+    
+  }
+}
+
